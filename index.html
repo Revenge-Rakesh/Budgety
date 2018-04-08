@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+     <link href="C:\Users\Rakesh\Documents\htp\css\budget.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <div class="para">
+    <p>A small javaScript application</p>
+    <p>This application will help you to calculate the budget in a particular month</p>
+    </div>
+    <div class="circle-container">
+	<div class="circle">
+		<div class="front">
+			<p>Hover me! To see the designer photo</p>
+		</div>
+		<div class="back">
+			<img class="back-logo" src="C:\Users\Rakesh\Pictures\Saved Pictures\images\download.png" alt="designer photo" />
+		</div>
+	</div>
+</div>
+    
+    
+    
+    
+<div class="top">
+    <div class="budget">
+     <h2>Available budget in <span class="title-month">%Month%</span></h2>
+      <div class="budget-value">2,301</div>
+    <div class="budget-income clearfix">
+      <div class="budget-income-title">Income</div>
+      <div class="income">
+          <div class="budget-income-value">10000</div>
+      </div>
+    </div>
+    <div class="budget-expanse clearfix">
+     <div class="budget-expanse-title">Expense</div>
+     <div class="expanse">
+         <div class="budget-expanse-value">1500</div>
+     <div class="budget-expanse-percentage">25%</div>
+     </div>
+     </div>
+    </div>
+</div>
+    
+    <div class="bottom">
+            <div class="add">
+                <div class="add-container">
+                    <select class="add-type">
+                        <option value="inc" selected>+</option>
+                        <option value="exp">-</option>
+                    </select>
+                    <input type="text" class="add-description" placeholder="Add description">
+                    <input type="number" class="add-value" placeholder="Value">
+                    <button class="add-btn"><i class="fa fa-check"></i></button>
+                </div>
+            </div>
+    </div>
+    <div class="container">
+       <div class="income-container">
+           <div class="income-container-title">INCOME</div>
+           <div class="income-list">
+          <!--- <div class="item" id="inc-0">                    //this is the sample of item for income
+              <div class="item-discription">Salary</div>
+               <div class="right-clearfix">
+                 <div class="item-value">354</div>
+                <div class="item-delete">
+                   <button class="item-delete-button"><i class="fa fa-close"></i></button>
+                   </div>
+               </div> 
+            </div> ----> 
+           </div>
+       </div>
+        <div class="expanse-container">
+           <div class="expanse-container-title">EXPENSE</div>
+           <div class="expanse-list">
+          <!--<div class="item" id="exp-0">                     //this is the sample of item for expenses
+              <div class="item-discription">holiday</div>
+               <div class="left-clearfix">
+                 <div class="item-value">3540</div>
+                 <div class="item-percentage">21%</div>
+                <div class="item-delete">
+                   <button class="item-delete-button"><i class="fa fa-close"></i></button>
+                   </div>
+               </div> 
+            </div>  --->  
+           </div>      
+       </div>   
+    </div>
+    
+    <script src="C:\Users\Rakesh\Documents\htp\js\budget.js">
+    </script>
+    
+</body>
+</html>
